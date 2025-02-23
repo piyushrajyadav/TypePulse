@@ -1,0 +1,60 @@
+.typing-box {
+    background-color: white;
+    width: 100%;
+    padding: 1.5rem 0;
+    border-radius: .8rem;
+    font-family: 'Neuton', serif !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, .12), -2px 6px 24px rgba(0, 0, 0, .12);
+}
+
+.typing-box input {
+    display: hidden;
+}
+
+.div {
+    width: 100%;
+    font-size: 35px;
+    padding: 0px 20px;
+    height: 100%;
+}
+
+.div span {
+    padding: 0px 2px;
+}
+
+.current-key {
+    text-decoration: underline;
+    color: rgb(137, 137, 137);
+    animation: blink 1s infinite;
+}
+
+.green {
+    color: green;
+    background-color: rgb(129 220 129 / 33%);
+}
+
+.red {
+    text-decoration: underline;
+    color: red;
+}
+
+.input {
+    opacity: 0;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

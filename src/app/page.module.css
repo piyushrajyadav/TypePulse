@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top:6rem;
+  width: 1300px;
+  
+}
+.header p, .header h1 {
+  color: var(--text-color); /* ✅ Ensures text is visible in both modes */
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+}
+.header p {
+  margin: 0;
+  font-size: 20px;
+}
+.header h1 {
+  margin-top: 4px;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 1300px) {
+  .main {
+    width: 100%
+  }
+}

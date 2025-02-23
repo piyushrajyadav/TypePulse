@@ -1,0 +1,16 @@
+.parameter-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+.typing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+.typing-container p, .typing-container h2 {
+    color: var(--text-color);
+  }
+  
