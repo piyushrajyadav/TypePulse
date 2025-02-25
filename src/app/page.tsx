@@ -10,7 +10,7 @@ export default function Home() {
         <div className={classes.header}>
           <p>Welcome To Type Pulse</p>
           <h1>Test your typing speed</h1>
-          <h2> Made by <Link href="https://github.com/Piyushyadav">Piyush Yadav</Link></h2>
+          <h2> Made by <Link href="https://github.com/Piyushrajyadav">Piyush Yadav</Link></h2>
           <ThemeToggle /> {/* ✅ Add the theme toggle button */}
         </div>
         <Typing />
